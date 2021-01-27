@@ -10704,7 +10704,6 @@ padding: 2px 10px;
   .sidebar.toggled .sidebar-heading {
     text-align: center;
   }
-  
   .sidebar.toggled .nav-item .nav-link .badge-counter , 
   .topbar .nav-item .nav-link .badge-counter .requests{
     position: absolute;
@@ -10714,7 +10713,25 @@ padding: 2px 10px;
     margin-top: -45px;
     font-size: 14px;
   }
+  
+  
 }
+@media (max-width : 768px){
+  .sidebar .nav-item .nav-link .badge-counter , 
+  .topbar .nav-item .nav-link .badge-counter .requests{
+    position: absolute;
+    transform: scale(0.7);
+    transform-origin: top right;
+    right: 30px;
+    margin-top: -45px;
+    font-size: 14px;
+  }
+
+}
+
+
+
+
 .sidebar-brand-text{
   color: var(--Brown);
   font-size: 23px;
