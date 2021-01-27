@@ -1628,6 +1628,7 @@ font-weight: bold;
 }
 .table tr{
   white-space: nowrap;
+  
 
 }
 .table td{
@@ -1635,6 +1636,7 @@ font-weight: bold;
     border-right: 1px solid;
     border-left: 1px solid;
     border-bottom: 1px solid;
+    vertical-align: middle;
 
 
 }
