@@ -1589,6 +1589,7 @@ pre code {
 }
 
 
+
 .table {
   width: 100%;
   margin-bottom: 1rem;
@@ -10241,6 +10242,10 @@ a:focus {
   transform-origin: top right;
   right: .25rem;
   margin-top: -.25rem;
+}
+.nav-profile-name {
+    color: black;
+    font-size: 14px;
 }
 .sidebar .nav-item .nav-link .badge-counter , 
 .topbar .nav-item .nav-link .badge-counter .requests{
