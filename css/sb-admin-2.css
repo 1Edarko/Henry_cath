@@ -10228,12 +10228,14 @@ a:focus {
   right: .25rem;
   margin-top: -.25rem;
 }
-.sidebar .nav-item .nav-link .badge-counter, 
+.sidebar .nav-item .nav-link .badge-counter , 
 .topbar .nav-item .nav-link .badge-counter .requests{
  position: relative;
  margin-top: 0;
 transform: scale(1);
-right: 1px;
+right: -56px;
+font-size: 12px;
+padding: 2px 10px;
 }
 
 .sidebar .nav-item .nav-link .img-profile,
@@ -10701,6 +10703,16 @@ right: 1px;
   }
   .sidebar.toggled .sidebar-heading {
     text-align: center;
+  }
+  
+  .sidebar.toggled .nav-item .nav-link .badge-counter , 
+  .topbar .nav-item .nav-link .badge-counter .requests{
+    position: absolute;
+    transform: scale(0.7);
+    transform-origin: top right;
+    right: 30px;
+    margin-top: -45px;
+    font-size: 14px;
   }
 }
 .sidebar-brand-text{
