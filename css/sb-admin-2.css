@@ -1615,6 +1615,7 @@ pre code {
   color: black;
   
 }
+
  .desc{
 color: #000; 
 font-weight: bold;
@@ -1624,6 +1625,10 @@ font-weight: bold;
 .table th,
 .table td {
   vertical-align: top;
+}
+.table tr{
+  white-space: nowrap;
+
 }
 .table td{
    background-color: #fff;
