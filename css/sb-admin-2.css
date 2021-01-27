@@ -1610,7 +1610,7 @@ pre code {
 
 
 .table {
-  width: 100%;
+  width: 99%;
   margin-bottom: 1rem;
   color: black;
   
@@ -1623,12 +1623,13 @@ font-weight: bold;
 
 .table th,
 .table td {
-  padding:11px;
   vertical-align: top;
-  /* border-top: 1px solid #e3e6f0; */
 }
 .table td{
-  background-color: #fff;
+   background-color: #fff;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
 
 
 }
@@ -1636,7 +1637,9 @@ font-weight: bold;
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid;
+    font-size: 13px;
+    vertical-align: bottom;
+    font-weight: 300;
 }
 
 .table tbody + tbody {
