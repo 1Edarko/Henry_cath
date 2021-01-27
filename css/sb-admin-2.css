@@ -213,7 +213,10 @@ svg {
 
 table {
   border-collapse: collapse;
+  
+  
 }
+
 
 caption {
   padding-top: 0.75rem;
@@ -1540,6 +1543,10 @@ pre code {
 .table-title{
   font-size: 30px;
 }
+.client{
+  color:var(--Brown);
+  font-weight: bold;
+}
 .actions-btn{
   border: 1px solid var(--Brown);
   color:var(--Brown);
@@ -1577,6 +1584,7 @@ pre code {
   font-size: 13px;
   font-weight: bold;
 }
+/* Editing Icons */
 .fa-bell{
   color: black;
   font-size: 18px;
@@ -1588,25 +1596,43 @@ pre code {
   font-weight: bold;
 }
 
+.fa-eye{
+  color: var(--Brown);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.fa-eye:hover{
+  color: #795548c7;
+}
+
+/* End Editing Icons*/
+
 
 
 .table {
   width: 100%;
   margin-bottom: 1rem;
   color: black;
+  
 }
+ .desc{
+color: #000; 
+font-weight: bold;
+}
+
 
 .table th,
 .table td {
   padding:11px;
   vertical-align: top;
-  border-top: 1px solid #e3e6f0;
+  /* border-top: 1px solid #e3e6f0; */
 }
 .table td{
   background-color: #fff;
 
 
 }
+
 
 .table thead th {
   vertical-align: bottom;
@@ -5868,7 +5894,7 @@ a.close.disabled {
   margin-bottom: 0;
   line-height: 1.5;
 }
-.form-tile{
+.form-title{
   color: black;
 }
 
