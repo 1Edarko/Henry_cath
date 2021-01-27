@@ -1537,6 +1537,9 @@ pre code {
     margin-left: 91.66667%;
   }
 }
+.table-title{
+  font-size: 30px;
+}
 .actions-btn{
   border: 1px solid var(--Brown);
   color:var(--Brown);
@@ -1554,6 +1557,7 @@ pre code {
 .options{
   margin-top: 20px;
 }
+
 .submit-btn{
   border: none;
   color:#fff;
@@ -1573,6 +1577,17 @@ pre code {
   font-size: 13px;
   font-weight: bold;
 }
+.fa-bell{
+  color: black;
+  font-size: 18px;
+
+}
+
+.flaticon-envelope{
+  color: black;
+  font-weight: bold;
+}
+
 
 .table {
   width: 100%;
@@ -3657,8 +3672,7 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #4e73df;
-  background-color: #4e73df;
+  background-color: #8bc34a;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
