@@ -1163,7 +1163,7 @@ pre code {
   margin-bottom: 10px;
 }
 .client{
-  color:var(--Brown);
+  color:var(--mattBrown);
 }
 small{
   display: block;
@@ -1267,8 +1267,8 @@ td {
   border-left: 0px solid;
 }
 .table td:last-child{
-  border-right: 6px solid var(--Brown);
-  color: var(--Brown);
+  border-right: 6px solid var(--mattBrown);
+  color: var(--mattBrown);
 
 
 }
